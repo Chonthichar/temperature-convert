@@ -1,0 +1,40 @@
+<!DOCTYPE htmzl>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- function faranheit -->
+<h1>Please fill in the Temperature</h1>
+<br>
+<br>
+<br>
+
+
+<form name="input" action="" method="get">
+    <div>
+   <!-- <label class="celsius1" for="celsius">Celsius</label><br>-->
+        <input id="celsius" type="text" placeholder="Please enter celsius here" /><br>
+        <button class="button"  onclick="toCelsiusProgram(document.getElementById('celsius').value)">Transit to Fahrenheit</button>
+        <br>
+        <br>
+
+      <!--  <label class="celsius2" for="fahrenheit">Fahrenheit</label><br> -->
+        <input id="fahrenheit" type="text" placeholder="Please enter Fahren here"/><br>
+        <button class="button" onclick="toFahrenheitProgram(document.getElementById('fahrenheit').value)">Transit to celsius</button>
+        <br>
+        <br>
+
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+</form>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
